@@ -36,16 +36,18 @@ Supports conditional rules, user-based reminders, and future integrations with R
 ---
 
 ## 📂 Project Structure (planned)
+
 smart-reminder-bot/
 ├── app/
-│ ├── models.py # DB models (User, Reminder)
-│ ├── db.py # DB connection logic
-│ ├── logic.py # Conditional logic engine
-│ ├── scheduler.py # Background jobs / reminder checks
-│ └── cli.py # CLI interface
+│   ├── models.py        # DB models (User, Reminder)
+│   ├── db.py            # DB connection logic
+│   ├── logic.py         # Conditional logic engine
+│   ├── scheduler.py     # Background jobs / reminder checks
+│   └── cli.py           # CLI interface
 ├── requirements.txt
 ├── README.md
 └── config.py
+
 
 
 ---
